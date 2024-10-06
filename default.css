@@ -1,0 +1,60 @@
+/* side peek */
+.layout.layout-side-peek {
+	padding-bottom: 80vh !important;
+}
+/* center peek */
+.layout.layout-center-peek {
+	padding-bottom: 62vh !important;
+}
+/* full page */
+.layout:not(.layout-center-peek):not(.layout-side-peek) {
+	padding-bottom: 80vh !important;
+}
+/* input area */
+[contenteditable] {
+	text-align: justify;
+}
+/* contents display at gallery view item */
+.notion-selectable.notion-page-block.notion-collection-item > a > div:first-child {
+	opacity: 0.6;
+}
+/* "#" heading */
+h2 {
+	font-size: 32px !important;
+	border-bottom: 1px solid #f8f8f2;
+}
+/* "##" heading */
+h3 {
+	font-size: 26px !important;
+}
+/* "###" heading */
+h4 {
+	font-size: 20px !important;
+}
+/* all heading at normal state */
+.notion-page-content > div:has(h2),
+.notion-page-content > div:has(h3),
+.notion-page-content > div:has(h4) {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+/* "#" heading at under sibling element */
+.notion-page-content > div + div:has(h2) {
+	margin-top: 2em !important;
+}
+/* "##" heading at under sibling element */
+.notion-page-content > div:not(:has(h2)) + div:has(h3){
+	margin-top: 1.5em !important;
+}
+/* "###" heading at under sibling element */
+.notion-page-content > div:not(:has(h3)) + div:has(h4) {
+	margin-top: 1em !important;
+}
+/* "#" heading displays an underscore, so the margin-top is increased by that amount. */
+.notion-selectable:has(h2) + .notion-selectable {
+	margin-top: 1em !important;
+}
+/* linked database view on the pages */
+.notion-selectable.notion-collection_view-block .notion-scroller.horizontal.notion-collection-view-body {
+	overflow-x: hidden !important;
+}
