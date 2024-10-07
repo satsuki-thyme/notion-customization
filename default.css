@@ -4,7 +4,7 @@
 }
 /* center peek */
 .layout.layout-center-peek {
-	padding-bottom: 62vh !important;
+	padding-bottom: 32vh !important;
 }
 /* full page */
 .layout:not(.layout-center-peek):not(.layout-side-peek) {
