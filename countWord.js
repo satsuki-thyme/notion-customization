@@ -1,4 +1,9 @@
-let countWord = () => {
+/*
+
+  count word
+
+*/
+(() => {
   document.querySelector(`body`).innerHTML += `<div class="count-word">Count</button>`
   let countWordButton = document.querySelector(`.count-word`)
   let count = 0
@@ -20,5 +25,4 @@ let countWord = () => {
       count += e.textContent.length
     })
   }
-}
-countWord()
+})()
