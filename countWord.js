@@ -22,7 +22,8 @@
     elem
     .querySelectorAll(`.notranslate`)
     .forEach(e => {
-      count += e.textContent.length
+      count += e.textContent.replace(/\r?\n/g, ``).length
+      console.log(e.textContent)
     })
   }
 })()

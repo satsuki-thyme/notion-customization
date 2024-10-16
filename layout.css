@@ -1,17 +1,5 @@
 /*
 
-  # toc
-  - layout
-  - count word button
-
-*/
-
-
-
-
-
-/*
-
   layout
 
 */
@@ -21,7 +9,7 @@
 }
 /* center peek */
 .layout.layout-center-peek {
-  padding-bottom: 62vh !important;
+  padding-bottom: calc(200px + 30vh) !important;
 }
 /* full page */
 .layout:not(.layout-center-peek):not(.layout-side-peek) {
