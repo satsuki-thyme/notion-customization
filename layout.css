@@ -75,28 +75,3 @@ h4 {
 .notion-selectable.notion-collection_view-block .notion-scroller.horizontal.notion-collection-view-body {
   overflow-x: hidden !important;
 }
-
-
-
-
-
-/*
-
-  count word
-
-*/
-.count-word {
-  position: fixed;
-  z-index: 10000;
-  bottom: 110px;
-  right: 25px;
-  padding: 3px 7px 5px 7px;
-  line-height: 1;
-  color: #fff;
-  background-color: rgba(128, 128, 128, 0.5);
-  border-radius: 10px;
-  cursor: pointer;
-}
-.count-word:hover {
-  background-color: rgba(98, 98, 98, 0.5);
-}
