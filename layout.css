@@ -16,7 +16,7 @@
   padding-bottom: calc(200px + 40vh)  !important;
 }
 /* input area */
-.notion-page-content {
+.notion-page-content:not(:has(.notion-selectable.notion-page-block.notion-collection-item)) {
   text-align: justify;
 }
 /* contents display at gallery view item */
