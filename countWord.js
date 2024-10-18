@@ -6,24 +6,23 @@
 (() => {
   document.querySelector(`body`).innerHTML += `<div class="count-word">Count</button>`
   let countWordButton = document.querySelector(`.count-word`)
-  let count = 0
   countWordButton.onclick = () => {
     let contentsWrapper = document
     .querySelector(`.notion-peek-renderer .notion-page-content`)
     if (contentsWrapper) {
-      countWord(contentsWrapper)
+      alert(countWord(contentsWrapper))
     }
     else {
-      countWord(document.querySelector(`.layout .notion-page-content`))
+      alert(countWord(document.querySelector(`.layout .notion-page-content`)))
     }
-    alert(count)
   }
   function countWord(elem) {
+    let count = 0
     elem
     .querySelectorAll(`.notranslate`)
     .forEach(e => {
       count += e.textContent.replace(/\r?\n/g, ``).length
-      console.log(e.textContent)
     })
+    return count
   }
 })()
