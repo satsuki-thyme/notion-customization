@@ -21,7 +21,7 @@
 }
 /* contents display at gallery view item */
 .notion-selectable.notion-page-block.notion-collection-item > a > div:first-child {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 /* "#" heading */
 h2 {
