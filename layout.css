@@ -4,15 +4,15 @@
 
 */
 /* side peek */
-.layout.layout-side-peek {
+:not(svg).layout.layout-side-peek {
   padding-bottom: calc(200px + 40vh) !important;
 }
 /* center peek */
-.layout.layout-center-peek {
+:not(svg).layout.layout-center-peek {
   padding-bottom: calc(200px + 30vh) !important;
 }
 /* full page */
-.layout:not(.layout-center-peek):not(.layout-side-peek) {
+:not(svg).layout:not(.layout-center-peek):not(.layout-side-peek) {
   padding-bottom: calc(200px + 40vh)  !important;
 }
 /* input area */
