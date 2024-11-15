@@ -9,7 +9,7 @@
 }
 /* center peek */
 :not(svg).layout.layout-center-peek {
-  padding-bottom: calc(200px + 30vh) !important;
+  padding-bottom: calc(175px + 30vh) !important;
 }
 /* full page */
 :not(svg).layout:not(.layout-center-peek):not(.layout-side-peek) {
