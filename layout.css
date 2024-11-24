@@ -59,8 +59,10 @@ h4 {
 .notion-selectable:has(h2) + .notion-selectable {
   margin-top: 1em !important;
 }
-/* linked database view on the pages */
+/* allways show vertical scrollbar
+   & hidden horizontal scrollbar in linked database view on the pages */
 .notion-scroller.vertical.horizontal,
 .notion-selectable.notion-collection_view-block .notion-scroller.horizontal.notion-collection-view-body {
   overflow-x: hidden !important;
+  overflow-y: scroll !important;
 }
