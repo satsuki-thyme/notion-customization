@@ -59,6 +59,14 @@ h4 {
 .notion-selectable:has(h2) + .notion-selectable {
   margin-top: 1em !important;
 }
+/* hr */
+.notion-cursor-default {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.notion-cursor-default div {
+  border-bottom-color: #888888 !important;
+}
 /* allways show vertical scrollbar
    & hidden horizontal scrollbar in linked database view on the pages */
 .notion-scroller.vertical.horizontal,
