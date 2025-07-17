@@ -7,7 +7,7 @@
 
 ### Count word
 - Counts the number of characters in the open document.
-- Counts the number of characters in the selection with a shortcut(Alt + Shift + C).
+- Counts the number of characters in the selection with a shortcut(Ctrl + Alt + Shift + C).
   - The selection paragraph/block itself is not supported.
 - Refer to: countWord.js and countWord.css
 

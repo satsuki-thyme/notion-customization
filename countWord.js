@@ -4,7 +4,7 @@
 
 */
 (() => {
-  let shortcutKey = [`Alt`, `Shift`, `C`]
+  let shortcutKey = [`Control`, `Alt`, `Shift`, `C`]
   document.querySelector(`body`).innerHTML += `<div class="count-word">Count</button>`
   let countButton = document.querySelector(`.count-word`)
   let keydown = {}
@@ -16,9 +16,9 @@
       !otherKeyDown()
     ) {
       counterBody()
-      keydown.Alt = false
-      keydown.Shift = false
-      keydown.C = false
+      keydown.forEach(e => {
+        e = false
+      })
     }
     function otherKeyDown() {
       w = false
