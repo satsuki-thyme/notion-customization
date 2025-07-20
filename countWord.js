@@ -16,9 +16,9 @@
       !otherKeyDown()
     ) {
       counterBody()
-      keydown.forEach(e => {
-        e = false
-      })
+      for (let i in Object.keys(keydown)) {
+        keydown[Object.keys(keydown)[i]] = false
+      }
     }
     function otherKeyDown() {
       w = false
