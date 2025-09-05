@@ -1,11 +1,20 @@
 # Notion customization
+
 ## Features
+
+### Color
+
+- The tag color has been made brighter.
+- Refer to: color.css
+
 ### Layout
+
 - Improve appearance.
 - Improve usability.
 - Refer to: layout.css
 
 ### Count word
+
 - Counts the number of characters in the open document.
 - Counts the number of characters in the selection with a shortcut(Ctrl + Alt + Shift + C).
   - The selection paragraph/block itself is not supported.
@@ -14,6 +23,7 @@
 ![Count word button](attach/count-word.png "Count word button")
 
 ## Usage
+
 1. Install a plugin "[User JavaScript and CSS](https://chromewebstore.google.com/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld)" to the Chrome.
 2. Open Notion.
 3. Access to "User JavaScript and CSS" from plugin button.
