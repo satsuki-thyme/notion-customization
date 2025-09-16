@@ -5,34 +5,34 @@
 */
 /* tag */
 /* brown */
-[style*="background: rgba(255, 134, 49, 0.33);"] {
+.notion-dark-theme [style*="background: rgba(255, 134, 49, 0.33);"] {
   background: #4d382a !important;
 }
 /* orange */
-[style*="background: rgba(255, 134, 49, 0.33);"] {
+.notion-dark-theme [style*="background: rgba(255, 134, 49, 0.33);"] {
   background: #935c36 !important;
 }
 /* blue */
-[style*="background: rgba(59, 152, 255, 0.384);"] {
+.notion-dark-theme [style*="background: rgba(59, 152, 255, 0.384);"] {
   background: #4646b9 !important;
 }
 /* yellow */
-[style*="background: rgba(255, 212, 111, 0.255);"] {
+.notion-dark-theme [style*="background: rgba(255, 212, 111, 0.255);"] {
   background: #93931e !important;
 }
 /* green */
-[style*="background: rgba(93, 255, 164, 0.25);"] {
-  background: #214330 !important;
+.notion-dark-theme [style*="background: rgba(93, 255, 164, 0.25);"] {
+  background: #31513f !important;
 }
 /* purple */
-[style*="background: rgba(197, 123, 255, 0.345);"] {
+.notion-dark-theme [style*="background: rgba(197, 123, 255, 0.345);"] {
   background: #6c2d9d !important;
 }
 /* pink */
-[style*="background: rgba(255, 107, 180, 0.34);"] {
+.notion-dark-theme [style*="background: rgba(255, 107, 180, 0.34);"] {
   background: #733b59 !important;
 }
 /* red */
-[style*="background: rgba(255, 102, 91, 0.365);"] {
+.notion-dark-theme [style*="background: rgba(255, 102, 91, 0.365);"] {
   background: #873636 !important;
 }
