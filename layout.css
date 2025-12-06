@@ -12,7 +12,7 @@
   padding-bottom: calc(175px + 30vh) !important;
 }
 /* full page */
-:not(svg).layout:not(.layout-center-peek):not(.layout-side-peek) {
+:not(svg).layout:not(.layout-center-peek):not(.layout-side-peek):not(.layout-suppress-margin) {
   padding-bottom: calc(200px + 40vh)  !important;
 }
 /* input area */
